@@ -42,7 +42,7 @@ To choose the velocity profile, for example:
 ros2 run ros2_kdl_package ros2_kdl_node --ros-args -p cmd_interface:=velocity -p trajectory_type:=cubic
 ```
 ## Inverse Dynamics Controllers
-In the effort controll to choose which controller to use ,after launching the executable ros2_kdl_node.cpp, in the terminal we can send 0 or 1, corresponding to the Joint Space Inverse Dynamics Controller and the Inverse Dynamics Operational Space Controller.
+In the effort control to choose which controller to use ,after launching the executable ros2_kdl_node.cpp, in the terminal we can send 0 or 1, corresponding to the Joint Space Inverse Dynamics Controller and the Inverse Dynamics Operational Space Controller.
  
 ## Plot
 To plot the joint torques, run in an other terminal:
