@@ -19,7 +19,7 @@ ros2 launch iiwa_bringup iiwa.launch.py use_sim:="true" command_interface:="effo
 When gazebo world is open, the simulation is in pause and with zero gravity. Then we click on the small play button in the bottom left corner of the GUI in order to start the simulation.
  
 ## Running ros2_kdl_node.cpp
-To run the executalbe file use the command:
+To run the executable file use the command:
 ```bash
 ros2 run ros2_kdl_package ros2_kdl_node
 ```
